@@ -1,6 +1,11 @@
 /* Google Font 'Poppins' */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
+/* 
+  Har Boostrap på Navbar samt egen CSS 
+  nedan och Responsiv vid olika screen sizes & mobil anpassad 
+*/
+
 body {
   font-family: "Poppins", sans-serif !important;
   text-align: center;
@@ -14,23 +19,10 @@ h1 {
   color: rgb(175, 96, 96);
 }
 
+/* ABOUT ME */
 .about-me {
   padding: 3% 15%;
   /* 3 % top bottom, 15% left right */
-}
-
-.portfolio {
-  padding: 3% 15%;
-  /* 3 % top bottom, 15% left right */
-}
-
-.contact {
-  padding: 3% 15%;
-  /* 3 % top bottom, 15% left right */
-}
-
-.map {
-  margin: 10% 15%;
 }
 
 .image-container {
@@ -45,6 +37,22 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* PORTFOLIO */
+.portfolio {
+  padding: 3% 15%;
+  /* 3 % top bottom, 15% left right */
+}
+
+/* CONTACT */
+.contact {
+  padding: 3% 15%;
+  /* 3 % top bottom, 15% left right */
+}
+
+.map {
+  margin: 10% 15%;
 }
 
 /* MEDIA RESPONSIVENESS */
