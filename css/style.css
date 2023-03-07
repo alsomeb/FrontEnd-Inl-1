@@ -3,7 +3,7 @@
 
 /* 
   Har Boostrap på Navbar samt egen CSS 
-  nedan och Responsiv vid olika screen sizes & mobil anpassad 
+  nedan och Responsiv vid olika screen sizes & mobil anpassad så bra jag kan!
 */
 
 body {
@@ -56,11 +56,58 @@ h1 {
   /* 3 % top bottom, 15% left right */
 }
 
+.list-section {
+  max-width: 700px;
+}
+
+/* Carousel */
+#projects {
+  background-color: rgba(209, 197, 197, 0.253);
+  margin-top: 5%;
+  padding: 1rem;
+  max-width: 600px;
+  display: inline-block;
+}
+
+.project-text {
+  font-size: 18px;
+}
+
+.project-image {
+  width: 20%;
+  margin: 20px;
+  border-radius: 10px;
+}
+
 .portfolio p {
   font-size: 20px;
   line-height: 1.5;
   max-width: 700px;
   display: inline-block;
+}
+
+.carousel-link {
+  display: block;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.carousel-info {
+  display: block;
+  font-weight: bold;
+}
+
+.carousel-link:hover {
+  color: rgb(175, 96, 96);
+}
+
+.carousel-control-prev {
+  color: black;
+}
+
+.carousel-control-next {
+  color: black;
 }
 
 /* CONTACT */
@@ -132,6 +179,14 @@ iframe {
   .map {
     padding-bottom: 20%;
   }
+
+  #projects {
+    margin-top: 10%;
+  }
+
+  .list-section {
+    max-width: 500px;
+  }
 }
 
 @media (max-width: 550px) {
@@ -171,5 +226,13 @@ iframe {
 
   .map {
     padding-bottom: 20%;
+  }
+
+  #projects {
+    margin-top: 10%;
+  }
+
+  .list-section {
+    max-width: 350px;
   }
 }
