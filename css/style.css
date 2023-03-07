@@ -6,17 +6,31 @@ body {
   text-align: center;
 }
 
-#navbar-icon:hover {
+.nav-link:hover {
   color: rgb(175, 96, 96);
 }
 
-#name-h1 {
+h1 {
   color: rgb(175, 96, 96);
 }
 
 .about-me {
   padding: 3% 15%;
-  /* 7 % top bottom, 15% left right */
+  /* 3 % top bottom, 15% left right */
+}
+
+.portfolio {
+  padding: 3% 15%;
+  /* 3 % top bottom, 15% left right */
+}
+
+.contact {
+  padding: 3% 15%;
+  /* 3 % top bottom, 15% left right */
+}
+
+.map {
+  margin: 10% 15%;
 }
 
 .image-container {
@@ -40,8 +54,21 @@ body {
     margin-top: 5%;
   }
 
+  .portfolio {
+    margin-top: 5%;
+  }
+
+  .contact {
+    margin-top: 5%;
+  }
+
   .image-container img {
     width: 30%;
+  }
+
+  .map iframe {
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -50,8 +77,21 @@ body {
     margin-top: 10%;
   }
 
+  .portfolio {
+    margin-top: 10%;
+  }
+
+  .contact {
+    margin-top: 10%;
+  }
+
   .image-container img {
     width: 50%;
     margin-bottom: 20%;
+  }
+
+  .map iframe {
+    width: 100%;
+    height: 100%;
   }
 }
