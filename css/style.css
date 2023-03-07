@@ -51,6 +51,11 @@ h1 {
   /* 3 % top bottom, 15% left right */
 }
 
+iframe {
+  height: 300px;
+  width: 75%;
+}
+
 .map {
   margin: 10% 15%;
 }
