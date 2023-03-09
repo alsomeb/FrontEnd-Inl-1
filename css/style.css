@@ -23,6 +23,10 @@ h1 {
   font-weight: bold;
 }
 
+hr {
+  display: none;
+}
+
 /* ABOUT ME */
 .about-me {
   padding: 3% 15%;
