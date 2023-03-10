@@ -68,6 +68,7 @@ hr {
 #projects {
   background-color: rgba(209, 197, 197, 0.253);
   margin-top: 5%;
+  margin-bottom: 10%;
   padding: 1rem;
   max-width: 600px;
   display: inline-block;
@@ -159,6 +160,10 @@ iframe {
 /* MEDIA RESPONSIVENESS */
 /* at screen width 1028px & 550px we will make this changes below */
 @media (max-width: 1028px) {
+  body {
+    min-height: 110vh;
+  }
+
   .about-me {
     margin-top: 5%;
   }
@@ -186,6 +191,7 @@ iframe {
 
   #projects {
     margin-top: 10%;
+    margin-bottom: 10%;
   }
 
   .list-section {
@@ -194,6 +200,10 @@ iframe {
 }
 
 @media (max-width: 550px) {
+  body {
+    min-height: 110vh;
+  }
+
   .about-me {
     margin-top: 10%;
   }
@@ -234,6 +244,7 @@ iframe {
 
   #projects {
     margin-top: 10%;
+    margin-bottom: 10%;
   }
 
   .list-section {
