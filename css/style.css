@@ -23,10 +23,6 @@ h1 {
   font-weight: bold;
 }
 
-hr {
-  display: none;
-}
-
 /* ABOUT ME */
 .about-me {
   padding: 3% 15%;
@@ -68,7 +64,6 @@ hr {
 #projects {
   background-color: rgba(209, 197, 197, 0.253);
   margin-top: 5%;
-  margin-bottom: 10%;
   padding: 1rem;
   max-width: 600px;
   display: inline-block;
@@ -160,10 +155,6 @@ iframe {
 /* MEDIA RESPONSIVENESS */
 /* at screen width 1028px & 550px we will make this changes below */
 @media (max-width: 1028px) {
-  body {
-    min-height: 130vh;
-  }
-
   .about-me {
     margin-top: 5%;
   }
@@ -191,7 +182,6 @@ iframe {
 
   #projects {
     margin-top: 10%;
-    margin-bottom: 10%;
   }
 
   .list-section {
@@ -199,7 +189,7 @@ iframe {
   }
 }
 
-@media screen and (min-width: 550px) {
+@media (max-width: 550px) {
   body {
     min-height: 130vh;
   }
@@ -244,16 +234,9 @@ iframe {
 
   #projects {
     margin-top: 10%;
-    margin-bottom: 10%;
   }
 
   .list-section {
     max-width: 350px;
-  }
-}
-
-@media screen and (min-width: 380px) {
-  body {
-    min-height: 130vh;
   }
 }
