@@ -13,6 +13,10 @@ body {
   min-height: 100vh;
 }
 
+hr {
+  display: none;
+}
+
 .nav-link:hover {
   color: rgb(175, 96, 96);
 }
