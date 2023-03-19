@@ -67,7 +67,7 @@ h1 {
 /* Carousel */
 #projects {
   background-color: rgba(209, 197, 197, 0.253);
-  margin-top: 5%;
+  margin-top: 2%;
   padding: 1rem;
   max-width: 600px;
   display: inline-block;
@@ -185,7 +185,7 @@ iframe {
   }
 
   #projects {
-    margin-top: 10%;
+    margin-top: 5%;
   }
 
   .list-section {
@@ -237,7 +237,7 @@ iframe {
   }
 
   #projects {
-    margin-top: 10%;
+    margin-top: 5%;
   }
 
   .list-section {
