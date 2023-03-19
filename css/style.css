@@ -161,7 +161,7 @@ iframe {
 /* at screen width 1028px & 550px we will make this changes below */
 @media (max-width: 1028px) {
   body {
-    min-height: 110vh;
+    min-height: 130vh;
   }
 
   .about-me {
@@ -199,9 +199,9 @@ iframe {
   }
 }
 
-@media (max-width: 550px) {
+@media screen and (min-width: 550px) {
   body {
-    min-height: 110vh;
+    min-height: 130vh;
   }
 
   .about-me {
@@ -249,5 +249,11 @@ iframe {
 
   .list-section {
     max-width: 350px;
+  }
+}
+
+@media screen and (min-width: 380px) {
+  body {
+    min-height: 130vh;
   }
 }
