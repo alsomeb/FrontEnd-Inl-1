@@ -21,6 +21,14 @@ hr {
   color: rgb(175, 96, 96);
 }
 
+i:hover {
+  color: rgb(175, 96, 96);
+}
+
+i {
+  color: black;
+}
+
 h1 {
   margin-bottom: 5%;
   color: rgb(175, 96, 96);
