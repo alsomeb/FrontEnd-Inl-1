@@ -58,10 +58,12 @@ h1 {
 .portfolio {
   padding: 3% 15%;
   /* 3 % top bottom, 15% left right */
+  min-height: auto;
 }
 
 .list-section {
   max-width: 700px;
+  margin-bottom: 30%;
 }
 
 /* Carousel */
